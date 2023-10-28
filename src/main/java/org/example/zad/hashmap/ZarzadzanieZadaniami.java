@@ -24,6 +24,8 @@ public class ZarzadzanieZadaniami {
         } while (true);
     }
 
+
+
     private static void menu() {
         System.out.println("\nWybierz operację:");
         System.out.println("1. Dodaj nowe zadanie");
