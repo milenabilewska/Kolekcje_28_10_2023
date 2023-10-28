@@ -1,7 +1,4 @@
 package org.example.zad.hashset;
-import java.util.HashSet;
-import java.util.Scanner;
-import java.util.Set;
 
 
 class Zadanie {

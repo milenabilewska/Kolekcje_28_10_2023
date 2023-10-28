@@ -13,10 +13,10 @@ public class HashMapExample {
         Map<Integer, Integer> mojaMapaInteger = new HashMap<>();
 
         // Tworzenie HashMap przechowującej pary klucz-wartość typu String-String
-        Map<String, String> mojaMapaString = new HashMap<>();
+      //  Map<String, String> mojaMapaString = new HashMap<>();
 
         // Tworzenie HashMap przechowującej pary klucz-wartość typu String-Double
-        Map<String, Double> mojaMapaStringDouble = new HashMap<>();
+      //  Map<String, Double> mojaMapaStringDouble = new HashMap<>();
 
         // Tworzenie HashMap przechowującej pary klucz-wartość typu Double - String
         Map<Double, String> mojaMapaDoubleString = new HashMap<>();
