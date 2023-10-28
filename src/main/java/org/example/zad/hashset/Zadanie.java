@@ -2,7 +2,7 @@ package org.example.zad.hashset;
 
 
 class Zadanie {
-    private String nazwa;
+    private final String nazwa;
     private boolean czyZakonczone;
 
     public Zadanie(String nazwa) {

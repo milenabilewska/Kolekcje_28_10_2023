@@ -22,7 +22,7 @@ public class ZarzadzanieZadaniami {
             scanner.nextLine();
 
             switch (wybor) {
-                case 1:
+                case 1 -> {
                     System.out.print("Podaj nazwę nowego zadania: ");
                     String nazwa = scanner.nextLine();
                     Zadanie noweZadanie = new Zadanie(nazwa);
@@ -32,8 +32,8 @@ public class ZarzadzanieZadaniami {
                         listaZadan.add(noweZadanie);
                         System.out.println("Dodano nowe zadanie: " + nazwa);
                     }
-                    break;
-                case 2:
+                }
+                case 2 -> {
                     if (listaZadan.isEmpty()) {
                         System.out.println("Lista zadań jest pusta.");
                     } else {
@@ -43,8 +43,8 @@ public class ZarzadzanieZadaniami {
                                     (zadanie.czyZakonczone() ? "Zakończone" : "Niezakończone") + ")");
                         }
                     }
-                    break;
-                case 3:
+                }
+                case 3 -> {
                     System.out.print("Podaj nazwę zadania do oznaczenia jako zakończone: ");
                     String zadanieDoOznaczenia = scanner.nextLine();
                     for (Zadanie zadanie : listaZadan) {
@@ -54,8 +54,8 @@ public class ZarzadzanieZadaniami {
                             break;
                         }
                     }
-                    break;
-                case 4:
+                }
+                case 4 -> {
                     Set<Zadanie> zadaniaDoUsuniecia = new HashSet<>();
                     for (Zadanie zadanie : listaZadan) {
                         if (zadanie.czyZakonczone()) {
@@ -64,13 +64,12 @@ public class ZarzadzanieZadaniami {
                     }
                     listaZadan.removeAll(zadaniaDoUsuniecia);
                     System.out.println("Usunięto zakończone zadania.");
-                    break;
-                case 5:
+                }
+                case 5 -> {
                     System.out.println("Koniec programu.");
                     System.exit(0);
-                    break;
-                default:
-                    System.out.println("Niepoprawny wybór. Wybierz operację od 1 do 5.");
+                }
+                default -> System.out.println("Niepoprawny wybór. Wybierz operację od 1 do 5.");
             }
         }
     }
