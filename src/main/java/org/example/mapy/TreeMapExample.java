@@ -35,9 +35,6 @@ public class TreeMapExample {
 
 
 
-
-
-
         // Pobieranie wartości na podstawie klucza
         int wartosc = mojaMapa.get("Klucz 2");
         System.out.println("Wartość dla Klucz 2: " + wartosc);
