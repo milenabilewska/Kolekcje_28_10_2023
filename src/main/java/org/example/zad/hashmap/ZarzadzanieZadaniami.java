@@ -10,7 +10,7 @@ public class ZarzadzanieZadaniami {
         Scanner scanner = new Scanner(System.in);
         int numerZadania = 1;
 
-        do {
+        while (true) {
             menu();
             int wybor = scanner.nextInt();
             switch (wybor) {
@@ -21,7 +21,7 @@ public class ZarzadzanieZadaniami {
                 case 5 -> koniecprogramu();
                 default -> System.out.println("Niepoprawny wybór. Wybierz operację od 1 do 5.");
             }
-        } while (true);
+        }
     }
 
 
