@@ -10,6 +10,8 @@ public class ZarzadzanieZadaniami {
         Scanner scanner = new Scanner(System.in);
         int numerZadania = 1;
 
+
+
         while (true) {
             menu();
             int wybor = scanner.nextInt();
