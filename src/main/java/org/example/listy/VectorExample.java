@@ -8,6 +8,18 @@ public class VectorExample {
         // Tworzenie Vector przechowującej liczby całkowite
         Vector<Integer> mojVector = new Vector<>();
 
+        System.out.println("  ");
+
+        Vector<Double> mojVector1 = new Vector<>();
+        Vector<String> mojVector2 = new Vector<>();
+        mojVector1.add(12.2);
+        mojVector2.add("napis");
+
+        System.out.println(mojVector1);
+        System.out.println("  ");
+        System.out.println(mojVector2);
+
+
         // Dodawanie elementów do Vector
         mojVector.add(1);
         mojVector.add(2);
