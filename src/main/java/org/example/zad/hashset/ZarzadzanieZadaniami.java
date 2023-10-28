@@ -1,9 +1,7 @@
 package org.example.zad.hashset;
 
-import java.util.HashSet;
-import java.util.Scanner;
-import java.util.Set;
 
+import java.util.*;
 public class ZarzadzanieZadaniami {
     public static void main(String[] args) {
         Set<Zadanie> listaZadan = new HashSet<>();
