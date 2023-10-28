@@ -68,7 +68,7 @@ public class HashSetExample {
         mojHashSetDouble.add(22.2);
         System.out.println(mojHashSetDouble);
 
-
+        System.out.println(mojHashSetDouble);
 
 
     }
