@@ -43,7 +43,7 @@ public class HashSetExample {
 
 
 
-        HashSet<String> cars = new HashSet<>();
+        HashSet<String> cars = new HashSet<String>();
         cars.add("Volvo");
         cars.add("BMW");
         cars.add("Ford");
@@ -61,6 +61,12 @@ public class HashSetExample {
         for (String i : cars) {
             System.out.println(i);
         }
+
+
+
+        Set<Double> mojHashSetDouble = new HashSet<>();
+        mojHashSetDouble.add(22.2);
+        System.out.println(mojHashSetDouble);
 
 
 
