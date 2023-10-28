@@ -43,7 +43,7 @@ public class HashSetExample {
 
 
 
-        HashSet<String> cars = new HashSet<String>();
+        HashSet<String> cars = new HashSet<>();
         cars.add("Volvo");
         cars.add("BMW");
         cars.add("Ford");
